@@ -24,7 +24,7 @@ Le script [`scripts/mirror.sh`](scripts/mirror.sh) :
 4. reconstruit un `.dmg`,
 5. publie ce `.dmg` comme release sur ce dépôt.
 
-Un [workflow GitHub Actions](.github/workflows/mirror-ollama.yml) exécute ce script automatiquement (déclenchement manuel ou planifié) sur un runner macOS.
+Un [workflow GitHub Actions](.github/workflows/mirror.yml) exécute ce script automatiquement (déclenchement manuel ou planifié) sur un runner macOS.
 
 ### Exécution manuelle
 
